@@ -70,3 +70,31 @@ Connect the components as follows:
    - **Unlock Button**: Press the unlock button to unlock the car. The OLED display will show "Car Unlocked."
    - **Reset Button**: Press the reset button to reset the system. The OLED display will show "System Reset."
 3. **Monitor Status**: The OLED display will guide you through the available options and current status. When no button is pressed, it will display:
+
+Press your choice:
+1.Lock
+2.Unlock
+3.Reset
+
+## Troubleshooting
+
+- **Buttons Not Responding**: Check the wiring and ensure the buttons are correctly connected and functioning.
+- **Display Issues**: Verify that the OLED display is wired correctly and powered. Check the I2C address if necessary.
+- **RF Communication Failures**: Ensure the transmitter and receiver are properly connected and within range. 
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Arduino**: For providing a platform for building hardware projects.
+- **Adafruit**: For their libraries and components.
+
+## Author
+
+- **usal winodith**- [winodith](https://github.com/winodith)
